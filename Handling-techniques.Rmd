@@ -1,0 +1,10 @@
+---
+title: "Missing data Handling Techniques"
+author: "David Gutiérrez-Duque"
+output: pdf_document
+---
+# Deletion method
+
+```{r}
+new_data <- complete.cases()
+```
